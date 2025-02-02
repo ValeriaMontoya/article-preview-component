@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a solution to the Article preview component challenge on Frontend Mentor.">
+  <meta name="keywords" content="Frontend Mentor, HTML, CSS">
+  <meta name="author" content="Valeria Montoya">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+  <main>
+    <article class="article">
+      <figure class="article__image"></figure>
+
+      <section class="article__content">
+        <h1 class="article__title">
+          Shift the overall look and feel by adding these wonderful touches to furniture in your home
+        </h1>
+        <p class="article__description">
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </p>
+        <div class="article__footer">
+          <div class="article__info">
+            <img class="article__avatar" src="./images/avatar-michelle.jpg" alt="Michelle Appleton">
+            <div>
+              <p class="article__author">Michelle Appleton</p>
+              <p class="article__date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button id="share-button-1">
+            <svg class="article__share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path fill="#6E8098"
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="article__share-section" id="share-section">
+        <div class="article__social-details">
+          <p class="article__share-text">Share</p>
+          <a href="#">
+            <img src="./images/icon-facebook.svg" alt="Facebook icon">
+          </a>
+          <a href="#">
+            <img src="./images/icon-twitter.svg" alt="Twitter icon">
+          </a>
+          <a href="#">
+            <img src="./images/icon-pinterest.svg" alt="Pinterest icon">
+          </a>
+        </div>
+        <button id="share-button-2">
+          <svg class="article__share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+            <path fill="#6E8098"
+              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+          </svg>
+        </button>
+      </section>
+
+    </article>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
